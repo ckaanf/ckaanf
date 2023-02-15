@@ -1,5 +1,5 @@
 ### Hi there 👋
-<a href="https://romanc3.tistory.com/" target="_blank"><img src="https://img.shields.io/badge/Tistory-232F3E?style=flat-square&logo=Tistory&logoColor=white"/></a> <img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=skywlstn777@gmail.com&logoColor=white"/></a>
+<a href="https://romanc3.tistory.com/" target="_blank"><img src="https://img.shields.io/badge/Tistory-232F3E?style=flat-square&logo=Tistory&logoColor=white"/></a> <img src="https://img.shields.io/badge/Gmail-skywkstb777@gmail.com-EA4335?style=flat-square&logo=Gmail&logoColor=white"/></a>
 
 <!--
 **frontLine-kim/frontLine-kim** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
