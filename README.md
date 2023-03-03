@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=wave&color=random&height=300&section=header&text=Good%20to%20See%20You%20Again&fontSize=70)
+![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=Good%20to%20See%20You%20Again&fontSize=70&animation=fadeIn)
 ### <a href="https://romanc3.tistory.com/" target="_blank"><img src="https://img.shields.io/badge/Tistory-232F3E?style=flat-square&logo=Tistory&logoColor=white"/></a> <img src="https://img.shields.io/badge/skywlstn777@gmail.com-EA4335?style=flat-square&logo=Gmail&logoColor=white"/></a>
 
 Java Spring 백엔드 주력, CI/CD 및 클라우드 인프라 구축에도 관심이 있어 공부 중입니다. 🤔
