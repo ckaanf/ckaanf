@@ -2,6 +2,8 @@
 ### <a href="https://romanc3.tistory.com/" target="_blank"><img src="https://img.shields.io/badge/Tistory-232F3E?style=flat-square&logo=Tistory&logoColor=white"/></a> <img src="https://img.shields.io/badge/skywlstn777@gmail.com-EA4335?style=flat-square&logo=Gmail&logoColor=white"/></a>
 - 🌱 I’m currently learning ...
      Vue.js && JavaScript
+
+- https://bald-rise-266.notion.site/Pagination-eb57e46876e244d6b2962f6dc8f0c080?pvs=4
 <!--
 **frontLine-kim/frontLine-kim** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
