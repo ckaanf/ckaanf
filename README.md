@@ -1,8 +1,8 @@
 <!--![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=Good%20to%20See%20You%20Again&fontSize=70&animation=fadeIn&fontColor=FFFFFF) -->
 ### <a href="https://romanc3.tistory.com/" target="_blank"><img src="https://img.shields.io/badge/Tistory-232F3E?style=flat-square&logo=Tistory&logoColor=white"/></a> <img src="https://img.shields.io/badge/skywlstn777@gmail.com-EA4335?style=flat-square&logo=Gmail&logoColor=white"/></a>
 - 🌱 I’m currently learning ...
-     Vue.js && JavaScript
-- 🌱 Still studying spring boot hard :)
+     Vue.js && TypeScript 
+- 🌱 Still studying Spring Boot hard :)
 <!--
 **frontLine-kim/frontLine-kim** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -21,7 +21,8 @@ Here are some ideas to get you started:
 ## ⌨️Skills
 
 ### Language
-<img src="https://img.shields.io/badge/Java-FCC624?style=flat-square&logo=Java&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java-FCC624?style=flat-square&logo=java&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/>
 <br>
 ### Client
 <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=Vue.js&logoColor=white"/> <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/> <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=Tailwind CSS&logoColor=white"/>
