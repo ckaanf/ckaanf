@@ -1,4 +1,4 @@
-<div style="text-align: center;">
+<div align = "center">  
 <center>
 
 <!--![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=Good%20to%20See%20You%20Again&fontSize=70&animation=fadeIn&fontColor=FFFFFF) -->
