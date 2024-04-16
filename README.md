@@ -1,4 +1,6 @@
+<!--
 <div align = "center">  
+-->
 <center>
 
 <!--![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=Good%20to%20See%20You%20Again&fontSize=70&animation=fadeIn&fontColor=FFFFFF) -->
@@ -48,5 +50,6 @@ Here are some ideas to get you started:
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ckaanf&show_icons=true&theme=midnight-purple)
 
 </center>
-
+<!--
 </div>
+-->
