@@ -6,7 +6,7 @@
 <!--![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=Good%20to%20See%20You%20Again&fontSize=70&animation=fadeIn&fontColor=FFFFFF) -->
 ### <a href="https://romanc3.tistory.com/" target="_blank"><img src="https://img.shields.io/badge/Tistory-232F3E?style=flat-square&logo=Tistory&logoColor=white"/></a> <img src="https://img.shields.io/badge/skywlstn777@gmail.com-EA4335?style=flat-square&logo=Gmail&logoColor=white"/></a>
 - 🌱 I’m currently learning ...
-     Vue.js && TypeScript 
+     Vue.js
 - 🌱 Still studying Spring Boot hard :)
 <!--
 **frontLine-kim/frontLine-kim** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
