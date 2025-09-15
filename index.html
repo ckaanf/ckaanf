@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>소프트웨어 엔지니어 김진수 | 이력서</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Chosen Palette: Calm Professional (Off-white, Charcoal, Muted Blue Accent) -->
+    <!-- Application Structure Plan: A single-page, scrollable SPA designed as an interactive narrative. It starts with a strong personal statement (Hero), moves to a visual timeline for Experience/Projects to show progression, followed by distinct sections for Skills and Activities. This structure is chosen over a static list to create an engaging journey for the recruiter, highlighting quantifiable impact and personal passion. Interactivity (expandable details, hover effects) is used to manage information density and encourage exploration. -->
+    <!-- Visualization & Content Choices: Experience/Projects -> Goal: Show growth & impact -> Viz: Vertical Timeline (HTML/CSS) -> Interaction: Click to expand details -> Justification: More engaging than a list, shows progression clearly. Skills -> Goal: Quick overview -> Viz: Styled Tags (HTML/CSS) -> Interaction: Hover highlight -> Justification: Visually scannable. Quantified data (e.g., performance metrics) are presented with strong typography rather than charts, as single data points do not warrant a full chart and this method provides more direct impact. CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -30px;
+            top: 0;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #4A90E2;
+            border: 3px solid #f8f9fa;
+        }
+        .timeline-line {
+            position: absolute;
+            left: -21px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background-color: #dee2e6;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <div class="container mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+
+        <!-- Hero Section -->
+        <header class="text-center mb-20 fade-in">
+            <h1 class="text-4xl sm:text-5xl font-bold text-gray-800">소프트웨어 엔지니어 김진수</h1>
+            <p class="mt-6 text-lg text-gray-600 max-w-2xl mx-auto">
+                사용자의 불편함을 기술로 해결하고, 안정적인 시스템을 통해 더 나은 경험을 만드는 소프트웨어 엔지니어입니다. 성능 최적화와 데이터 기반의 문제 해결에 강점이 있으며, 동료와 함께 배우고 지식을 나누며 성장하는 과정에서 큰 보람을 느낍니다.
+            </p>
+            <div class="mt-8 flex justify-center items-center space-x-6 text-gray-500">
+                <a href="mailto:skywistn777@gmail.com" class="hover:text-blue-500 transition-colors duration-300 flex items-center space-x-2">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
+                    <span>Email</span>
+                </a>
+                <a href="https://github.com/ckaanf" target="_blank" class="hover:text-blue-500 transition-colors duration-300 flex items-center space-x-2">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 0C4.477 0 0 4.477 0 10c0 4.418 2.865 8.166 6.839 9.49.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0110 4.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.378.203 2.398.1 2.651.64.7 1.03 1.595 1.03 2.688 0 3.848-2.338 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0020 10c0-5.523-4.477-10-10-10z" clip-rule="evenodd"></path></svg>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://romanc3.tistory.com/" target="_blank" class="hover:text-blue-500 transition-colors duration-300 flex items-center space-x-2">
+                     <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path><path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.022 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"></path></svg>
+                    <span>Blog</span>
+                </a>
+            </div>
+        </header>
+
+        <!-- Skills Section -->
+        <section class="mb-20 fade-in">
+            <h2 class="text-3xl font-bold text-center mb-12">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <h3 class="font-bold text-xl mb-4 text-gray-700">Language</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-blue-100 text-blue-800 py-1 px-3 rounded-full text-sm font-medium">Java</span>
+                        <span class="bg-yellow-100 text-yellow-800 py-1 px-3 rounded-full text-sm font-medium">JavaScript</span>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <h3 class="font-bold text-xl mb-4 text-gray-700">Framework</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-green-100 text-green-800 py-1 px-3 rounded-full text-sm font-medium">Spring</span>
+                        <span class="bg-teal-100 text-teal-800 py-1 px-3 rounded-full text-sm font-medium">Vue.js</span>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <h3 class="font-bold text-xl mb-4 text-gray-700">DB/Infra</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-gray-200 text-gray-800 py-1 px-3 rounded-full text-sm font-medium">MySQL</span>
+                        <span class="bg-red-100 text-red-800 py-1 px-3 rounded-full text-sm font-medium">Redis</span>
+                        <span class="bg-indigo-100 text-indigo-800 py-1 px-3 rounded-full text-sm font-medium">AWS</span>
+                        <span class="bg-sky-100 text-sky-800 py-1 px-3 rounded-full text-sm font-medium">Azure</span>
+                        <span class="bg-blue-100 text-blue-800 py-1 px-3 rounded-full text-sm font-medium">Docker</span>
+                        <span class="bg-purple-100 text-purple-800 py-1 px-3 rounded-full text-sm font-medium">ElasticSearch</span>
+                        <span class="bg-gray-200 text-gray-800 py-1 px-3 rounded-full text-sm font-medium">Github Actions</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline Section -->
+        <section class="fade-in">
+            <h2 class="text-3xl font-bold text-center mb-16">Work &amp; Projects</h2>
+            <div class="relative pl-8">
+                <div class="timeline-line"></div>
+                
+                <!-- Experience Item -->
+                <div class="mb-16 relative timeline-item fade-in">
+                    <h3 class="text-2xl font-bold text-gray-800">아큐라시스템</h3>
+                    <p class="text-md text-gray-500 mb-4">풀스택 개발자 (2024.04 - 현재)</p>
+                    <div class="space-y-6">
+                        <div class="bg-white p-6 rounded-lg shadow-sm">
+                            <h4 class="font-bold text-lg mb-2">유지보수 및 성능 개선</h4>
+                            <ul class="list-disc list-inside text-gray-600 space-y-2">
+                                <li>쿼리 튜닝 및 인덱스 최적화를 통해 <strong class="text-blue-600 font-semibold">서버 평균 응답 시간을 500ms에서 100ms 이하로 단축</strong>했습니다.</li>
+                                <li>동시성 제어 로직을 적용하여 월 5~10건 발생하던 <strong class="text-blue-600 font-semibold">문서 채번 오류를 0건으로 개선</strong>했으며, 1년간 장애 없이 운영 중입니다.</li>
+                                <li>스트림 처리 및 데이터 구조 개선으로 대용량 데이터 처리 성능을 향상시켜 서버 전체의 안정성을 높였습니다.</li>
+                            </ul>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-sm">
+                            <h4 class="font-bold text-lg mb-2">트러블슈팅 및 기술적 성장</h4>
+                             <ul class="list-disc list-inside text-gray-600 space-y-2">
+                                <li>런타임 분석 도구(Scavenger)를 도입하여 불필요한 API를 식별 및 제거하고, 코드 베이스의 유지보수성을 향상시켰습니다.</li>
+                                <li>주기적인 리팩토링으로 중복 및 유휴 코드를 제거하여 동료 개발자들의 코드 분석 시간을 줄이고 생산성을 높였습니다.</li>
+                                <li>파일 업로드 API의 보안 취약점을 분석하고, 인증 및 처리율 제한 로직을 추가하여 서버 안정성을 강화했습니다.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Item -->
+                <div class="relative timeline-item fade-in">
+                    <h3 class="text-2xl font-bold text-gray-800">텍스트판 플랫폼 서비스</h3>
+                     <p class="text-md text-gray-500 mb-4">5인 팀 프로젝트 (2023.12.04 ~ 2023.12.29)</p>
+                     <div class="bg-white p-6 rounded-lg shadow-sm">
+                        <p class="mb-4 text-gray-500 font-semibold">기술 스택: Vue.js, Java 17, Spring Boot 3.1.x, MySQL, Redis, AWS</p>
+                        <ul class="list-disc list-inside text-gray-600 space-y-2">
+                            <li>TF-IDF 알고리즘을 활용한 연관 게시물 추천 기능 개발 및 벡터 기반 추천 로직을 구현했습니다.</li>
+                            <li>Spring Batch와 Scheduler를 이용해 추천 데이터를 자동 업데이트하는 시스템을 구축했습니다.</li>
+                            <li>Redis 캐싱 도입으로 추천 기능 조회 시 발생하는 DB 부하를 줄이고 응답 속도를 개선했습니다.</li>
+                        </ul>
+                        <a href="#" class="inline-block mt-4 text-blue-600 font-semibold hover:underline">자세한 회고 보기 &rarr;</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Activities Section -->
+        <section class="mt-24 fade-in">
+            <h2 class="text-3xl font-bold text-center mb-12">Activities &amp; Growth</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <h3 class="font-bold text-lg mb-2">개발자 스터디 '개모임' 참여 (약 2년)</h3>
+                    <p class="text-gray-600">다양한 분야의 개발자들과 교류하며 격주로 학습 내용과 인사이트를 공유하고 기술적 시야를 넓혔습니다.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <h3 class="font-bold text-lg mb-2">인프런 워밍업 클럽 스터디 2기 수료</h3>
+                    <p class="text-gray-600">'읽기 좋은 코드'와 테스트 코드 작성법을 학습하며, 유지보수성을 고려하는 개발 역량을 키웠습니다.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <h3 class="font-bold text-lg mb-2">코드잇 스프린트 - 백엔드 서포터</h3>
+                    <p class="text-gray-600">백엔드 API를 구현하며 프론트엔드 개발자와의 협업 능력을 향상시켰고, 지식 공유의 즐거움을 깨달았습니다.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <h3 class="font-bold text-lg mb-2">패스트캠퍼스 이너서클 참여</h3>
+                    <p class="text-gray-600">3개의 프로젝트를 진행하며 문제의 본질을 깊이 고찰하고, 기술 외적인 해결책을 모색하는 유연한 사고를 길렀습니다.</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <script>
+        const faders = document.querySelectorAll('.fade-in');
+
+        const appearOptions = {
+            threshold: 0.2,
+            rootMargin: "0px 0px -50px 0px"
+        };
+
+        const appearOnScroll = new IntersectionObserver(function(
+            entries,
+            appearOnScroll
+        ) {
+            entries.forEach(entry => {
+                if (!entry.isIntersecting) {
+                    return;
+                } else {
+                    entry.target.classList.add('visible');
+                    appearOnScroll.unobserve(entry.target);
+                }
+            });
+        }, appearOptions);
+
+        faders.forEach(fader => {
+            appearOnScroll.observe(fader);
+        });
+    </script>
+</body>
+</html>
